@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+
+    <title>Bhumba Board</title>
+
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+    </style>
+
+    <script type="module" src="/build/bhumba-board.esm.js"></script>
+    <script nomodule src="/build/bhumba-board.js"></script>
+  </head>
+  <body>
+    <h1>Bhumba Board</h1>
+
+    <h2>Example</h2>
+
+    <bhumba-board id="example-board"></bhumba-board>
+
+    <script>
+      const board = document.getElementById("example-board");
+
+      board.boardState = {
+        Height: 7,
+        Width: 7,
+        Food: [
+          { X: 4, Y: 2 },
+          { X: 0, Y: 4 },
+          { X: 3, Y: 3 },
+        ],
+        Snakes: [
+          {
+            ID: "p1",
+            Body: [
+              { X: 6, Y: 1 },
+              { X: 5, Y: 1 },
+              { X: 5, Y: 1 },
+            ],
+            Health: 99,
+            EliminatedCause: "",
+            EliminatedBy: "",
+          },
+          {
+            ID: "p2",
+            Body: [
+              { X: 1, Y: 6 },
+              { X: 1, Y: 5 },
+              { X: 1, Y: 5 },
+            ],
+            Health: 99,
+            EliminatedCause: "",
+            EliminatedBy: "",
+          },
+        ],
+      };
+    </script>
+  </body>
+</html>
