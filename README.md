@@ -6,6 +6,10 @@ This is a web component library for rendering visualizations of [Battlesnake][ba
 
 It is purpose-built for some of my own Battlesnake projects and experiments, and as such may not be very customizable or useful to others.
 
+## Screenshot
+
+![Example 7x7 game board](bhumba-board-example.png)
+
 ## Status
 
 This project is experimental and your milage may vary.
