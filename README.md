@@ -53,11 +53,13 @@ npm start
 
 ## How to Use
 
-This project is not yet published as a pre-built package.
+See the source code of [src/index.html](src/index.html) for an example of how to use the bhumba-board component in a web page and how to set its board state using JavaScript. This is the same page which is served when you run `npm start`.
+
+See [Components](#components) for component-specific documentation.
 
 The [build script](#how-to-build) provides output in various formats in the `dist` directory. Refer to [Stencil][stencil]'s documentation for how to import the components in your own application.
 
-See [Components](#components) for component-specific documentation.
+This project is not yet published as a pre-built package.
 
 ## Open Invite
 
