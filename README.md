@@ -86,10 +86,10 @@ If you're using this library for a project, I'd love to hear about it.
 You can reach me at [xtagon@gmail.com](mailto:xtagon@gmail.com), or catch me in
 [Battlesnake Slack][slack] (username: `@xtagon`).
 
-[battlesnake]: https://play.battlesnake.com/
-[stencil]: https://stenciljs.com/
-[slack]: https://battlesnake.slack.com/
-
 ## License
 
 This project is released under the terms of the [MIT License](LICENSE.txt).
+
+[battlesnake]: https://play.battlesnake.com/
+[stencil]: https://stenciljs.com/
+[slack]: https://battlesnake.slack.com/
