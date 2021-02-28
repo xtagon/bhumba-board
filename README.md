@@ -65,6 +65,17 @@ The [build script](#how-to-build) provides output in various formats in the `dis
 
 This project is not yet published as a pre-built package.
 
+### Example Using NPM Link (Just for Testing)
+
+1. In the bhumba-board source root directory, run `npm link`
+2. In the consuming app's source root directory, run `npm link bhumba-board --save-dev`
+3. Add something like the following to the consuming app's HTML head:
+
+```html
+<script type="module" src="./node_modules/bhumba-board/dist/bhumba-board/bhumba-board.esm.js"></script>
+<script nomodule src="./node_modules/bhumba-board/dist/cjs/bhumba-board.cjs.js"></script>
+```
+
 ## Open Invite
 
 If you have any questions, or just wish to geek out and chat about Battlesnake
